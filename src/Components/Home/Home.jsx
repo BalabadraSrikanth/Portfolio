@@ -4,6 +4,7 @@ import './Home.css';
 function Home(){
 return(
     <>
+    
    <div className="displayitem">
     <div className='nama'>
     <p className='greet'>Hello!</p>

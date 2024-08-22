@@ -35,7 +35,7 @@ function Skillgpt() {
             </tr>
             <tr>
               <td id="css">CSS</td>
-              <td><img src={css} alt="css" /></td>
+              <td><img src={css} alt="css"  /></td>
             </tr>
             <tr>
               <td id="javascript">JavaScript</td>
