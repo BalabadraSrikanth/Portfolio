@@ -1,16 +1,37 @@
 
-
+/* Main container for the content */
 .displayitem {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the content horizontally */
-    font-size: 170%;
+    justify-content: space-between; /* Ensures space is evenly distributed */
+    padding: 20px;
+    font-size: 150%;
     color: antiquewhite;
-    padding-top: 100px; /* Adjust this value based on your menu height */
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* Ensure image and text are side by side */
+.nama {
+    flex: 1; /* Make the text container take up equal space */
 }
 
 img {
-    margin-left: 20%; /* Use margin for better control */
-    max-width: 100%; /* Ensure image is responsive */
+    flex: 1; /* Make the image take up equal space */
+    max-width: 20%; /* Ensure image is responsive */
     height: auto;
+    padding-right: 14%;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .displayitem {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px;
+        font-size: 120%; /* Reduce font size for smaller screens */
+    }
+
+    img {
+        margin-top: 20px; /* Add space between the text and image when stacked */
+    }
 }
