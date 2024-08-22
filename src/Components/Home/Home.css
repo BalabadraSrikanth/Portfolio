@@ -1,0 +1,10 @@
+.displayitem{
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+    font-size:150%;
+    color:antiquewhite
+}
+Img{
+    padding-left: 20%;
+}

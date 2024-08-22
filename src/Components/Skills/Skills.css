@@ -1,0 +1,90 @@
+/* General Styles */
+.skills-component {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  .skills-component .heading h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:  #00BCD4 ;;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 90%;
+    margin: 20px 0;
+    background-color: #222;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    color: #fff;
+    border-collapse: collapse;
+  }
+  
+  /* Table Header Styles */
+  thead th {
+    background-color: #444;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+  /* Table Body Styles */
+  tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #333;
+  }
+  
+  tbody td {
+    padding: 20px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #555;
+  }
+  
+  /* Skill and Logo Columns */
+  tbody td img {
+    height: 70px;
+    width: 80px;
+    margin-left: 20px;
+    vertical-align: middle;
+    border-radius: 8px;
+  }
+  
+  /* Category Titles */
+  .skill-category h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: #FFD700;;
+    margin-bottom: 15px;
+  }
+  
+  /* Show only two tables per screen */
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  }
+  

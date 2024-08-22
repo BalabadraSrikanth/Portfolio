@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;}
+
+
+.app{
+    
+    margin-top: -1%;
+   
+}
+.home,.skills,.aboutme{
+    margin: 3%;
+}
+#home{
+    padding-top: 5%;
+}
+#project{
+    padding-top: 3%;
+}
+.main-menu{
+    margin-top: -1%;
+}
