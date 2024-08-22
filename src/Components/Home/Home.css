@@ -1,10 +1,16 @@
-.displayitem{
+
+
+.displayitem {
     display: flex;
     align-items: center;
-    padding-left: 30%;
-    font-size:150%;
-    color:antiquewhite
+    justify-content: center; /* Centers the content horizontally */
+    font-size: 170%;
+    color: antiquewhite;
+    padding-top: 100px; /* Adjust this value based on your menu height */
 }
-Img{
-    padding-left: 20%;
+
+img {
+    margin-left: 20%; /* Use margin for better control */
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
 }

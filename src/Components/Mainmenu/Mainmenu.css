@@ -1,24 +1,81 @@
-.mainmenu{
-       position: fixed;
-       background-color: rgb(255, 140, 0);
-       margin-top: 0%;    
-       font-size: large;
-       width: 100%;
-       padding: 0%;
-       color: white;
-       /* scroll-behavior: smooth; */
-       align-items: center;
-}
-ul{
-    display: flex;
-    /* border: 1px solid white; */
+/* Main Menu Styles */
+.mainmenu {
+    position: fixed;
+    background-color: rgb(255, 140, 0);
+    margin-top: 0;
+    font-size: large;
     width: 100%;
-    list-style-type:none;
+    padding: 0;
+    color: white;
+    align-items: center;
+    z-index: 1000;
 }
-.homee{
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; /* Distribute space evenly */
+}
+
+.homee {
     padding-right: 40%;
 }
-.skillss,.projectss,.contactt,.aboutmee{
-    padding-left: 6%;
 
+.skillss, .projectss, .contactt, .aboutmee {
+    padding-left: 6%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .mainmenu {
+        font-size: medium;
+        padding: 0 10px;
+    }
+
+    ul {
+        flex-direction: column; /* Stack the menu items vertically */
+        text-align: center;
+    }
+
+    .homee, .skillss, .projectss, .contactt, .aboutmee {
+        padding: 10px 0;
+        padding-left: 0; /* Remove excessive padding for better alignment */
+        padding-right: 0;
+    }
+
+    .mainmenu {
+        background-color: rgb(255, 140, 0);
+        width: 100%;
+    }
+}
+
+/* General Body and App Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    background-color: black;
+    color: white;
+}
+
+.app {
+    margin-top: 0;
+}
+
+.home, .skills, .aboutme {
+    margin: 3%;
+}
+
+#home {
+    padding-top: 5%;
+}
+
+#project {
+    padding-top: 3%;
 }
