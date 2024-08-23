@@ -1,0 +1,39 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+.hidding{
+    text-align: center;
+    color: aqua;
+    font-size:200%;
+    
+}
+.education{
+    text-align: center;
+/* }
+tbody{
+    border: 2x;
+    box-shadow: 5pt; */
+}
+
+table{
+    margin-left: 5%;
+}
+td{
+    border: 2px;
+    padding-right: 0%;
+}
+ a{
+    color: white;
+    text-decoration: none;
+
+
+}
+    
+#major{
+    color: antiquewhite;
+}
+a::after{
+    color: white;
+}

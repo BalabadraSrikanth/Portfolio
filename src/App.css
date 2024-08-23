@@ -9,8 +9,8 @@ body{
     margin-top: -1%;
    
 }
-.home,.skills,.aboutme{
-    margin: 3%;
+#education{
+    padding-top: 3%;
 }
 #home{
     padding-top: 5%;

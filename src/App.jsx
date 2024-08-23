@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Aboutme from './Components/Aboutme/Aboutme';
 import Project from './Components/Project/Project';
 import Contact from './Components/Contact/Contact';
+import Education from './Components/Education/Education';
 
 function App() {
   return (
@@ -16,12 +17,16 @@ function App() {
       <section id="aboutme" className="section">
         <Aboutme />
       </section>
+      <section id='education' className="section">
+        <Education/>
+      </section>
       <section id="skills" className="section">
         <Skills />
       </section>
       <section id="project" className="section">
         <Project />
       </section>
+
       <section id="contact" className="section">
         <Contact />
       </section>

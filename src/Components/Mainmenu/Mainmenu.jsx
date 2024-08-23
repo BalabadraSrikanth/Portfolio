@@ -13,6 +13,9 @@ function Mainmenu() {
         <li className='aboutmee'>
           <Link to="aboutme" smooth={true} duration={500}>About Me</Link>
         </li>
+        <li className='education'>
+          <Link to="education" smooth={true} duration={500}>Education</Link>
+        </li>
         <li className='skillss'>
           <Link to="skills" smooth={true} duration={500}>Skills</Link>
         </li>
